@@ -24,37 +24,44 @@ a:hover{
 
 header{
 	display:inline-block;
+	margin-left:4%;
 }
 
+h1{
+	margin-bottom:0;
+}
+
+#header_sub{
+	margin-top:0;
+}
 
 nav{
 	display:inline-block;
-	margin-top: 70px;
 	float:right;
+	margin-top:50px;
+	width:40%;
 }
 
 li{
 	display:inline;
+	padding-right:5%;
 }
 
-nav ul li:first-child{
-	border:black dashed 5px;
-	padding: 10%
-
+#photo{
+	margin-left:4%;
+	display:inline-block;
+	width:40%;
 }
 
-nav ul li:nth-child(2){
-	padding: 10%
+
+#introduction{
+	display:inline-block;
+	width:40%;
+	float:right;
 }
 
-nav ul li:nth-child(3){
-	padding: 10%
-}
 
-nav ul li:nth-child(4){
-	padding: 10%
-}
 
-nav ul li:nth-child(5){
-	padding: 10%
+footer{
+	clear:both;
 }
