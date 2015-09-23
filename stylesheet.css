@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+	font-family:'Nixie One', cursive;
+	font-size:72px;
+}
+
+a:link{
+	text-decoration: none;
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:gray;
+}
+
+header{
+	display:inline-block;
+}
+
+
+nav{
+	display:inline-block;
+	margin-top: 70px;
+	float:right;
+}
+
+li{
+	display:inline;
+}
+
+nav ul li:first-child{
+	border:black dashed 5px;
+	padding: 10%
+
+}
+
+nav ul li:nth-child(2){
+	padding: 10%
+}
+
+nav ul li:nth-child(3){
+	padding: 10%
+}
+
+nav ul li:nth-child(4){
+	padding: 10%
+}
+
+nav ul li:nth-child(5){
+	padding: 10%
+}
