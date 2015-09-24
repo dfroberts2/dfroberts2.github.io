@@ -1,0 +1,30 @@
+#about{
+	margin-left:4%;
+	display:inline-block;
+	width:60%;
+}
+
+#blog_post_list{
+	font-size:18pt;
+	position: fixed;
+	left: 75%;
+	top: 27%;
+	right: 5%;
+}
+
+aside ul{
+	margin-top:-10px;
+	list-style-type:none;
+	text-align: center;
+}
+
+aside ul li{
+	margin-right:15px;
+}
+
+aside h2{
+	text-align: center;
+	background-color:navy;
+	border-radius:10px;
+	color:white;
+}

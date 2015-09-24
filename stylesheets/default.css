@@ -8,7 +8,7 @@ body{
 
 h1{
 	font-family:'Nixie One', cursive;
-	font-size:72px;
+	font-size:70px;
 }
 
 a:link{
@@ -36,32 +36,62 @@ h1{
 }
 
 nav{
-	display:inline-block;
 	float:right;
-	margin-top:50px;
-	width:40%;
+	margin-top:60px;
+	margin-left: auto;
+	margin-right: auto;
+	width:45%;
 }
-
-li{
+nav ul {
+	margin-right:10%;
+}
+nav ul li{
 	display:inline;
-	padding-right:5%;
+	padding-right:4%;
+	padding-left:4%;
 }
 
 #photo{
-	margin-left:4%;
+	margin-left:10%;
 	display:inline-block;
 	width:40%;
 }
 
+#img_sub_text{
+	margin-top:-20px;
+}
 
 #introduction{
+	width:30%;
 	display:inline-block;
-	width:40%;
 	float:right;
+	margin-right:10%;
+
 }
 
+#p1{
+	margin-bottom:70px;
+
+}
+
+main{
+	margin-top:40px;
+	margin-bottom:40px;
+}
 
 
 footer{
 	clear:both;
+}
+
+footer ul{
+	text-align: center;
+	margin:auto;
+}
+
+
+footer ul li{
+	display:inline;
+	margin-left:7%;
+	margin-right:7%;
 }
