@@ -1,11 +1,11 @@
-.blog_text{
+.blog_post{
 	margin-left:4%;
 	display:inline-block;
 	width:60%;
 }
 .blog_img{
-	padding-left:25%;
-	padding-right:10%;
+	width:60%;
+	margin:auto;
 }
 
 .img_text{

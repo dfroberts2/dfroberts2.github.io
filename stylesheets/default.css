@@ -66,8 +66,20 @@ nav ul li{
 	display:inline-block;
 	float:right;
 	margin-right:10%;
-
 }
+
+
+section p a:link{
+	text-decoration: none;
+	color:gray;
+}
+section p a:visited{
+	color:gray;
+}
+section p a:hover{
+	color:black;
+}
+
 
 #p1{
 	margin-bottom:70px;

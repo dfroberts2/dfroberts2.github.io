@@ -2,7 +2,7 @@
 
 <html lang="EN">
   
-  <head>
+    <head>
     <meta charset="UTF-8">
     <meta name="description" content="Blog posts">
     <meta name="author" content="David Roberts">
@@ -27,79 +27,86 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-
-  <article class="9_25_15">
-    <section class="blog_text 9_25_15_text">
-      <h2>September 25, 2015</h2>
+    
+    <article class="blog_post 9_25_15">
+      <section class="blog_text">
+        <h2><a name="9_25"></a>September 25, 2015</h2>
         <p>Things have really been moving fast at DevBootcamp. That's the way I like it! After 3 weeks we've covered all of the basics of web page design. Last week we reviewed HTML formatting and organization. This past week, we started moving into new territory (for me) and covered CSS, a styling language that brings aesthetic appeal to wepbages.</p>
-        <p>CSS has the power to change how content looks on a screen. This involves changing the font, size, and color of elements. However, it also involves changing the position of the elements on the page. In this post, I'll discuss a little more in depth how some of CSS positioning attributes work.</p>
-        <p>In CSS there are 4 main ways to define an HTML element's (such as a paragraph, list, or header etc.). They are:</p>
-        <ul>
+         <p>CSS has the power to change how content looks on a screen. This involves changing the font, size, and color of elements. However, it also involves changing the position of the elements on the page. In this post, I'll discuss a little more in depth how some of CSS positioning attributes work.</p>
+         <p>In CSS there are 4 main ways to define an HTML element's (such as a paragraph, list, or header etc.). They are:</p>
+         <ul>
           <li>Static</li>
           <li>Relative</li>
           <li>Absolute</li>
           <li>Fixed</li>
         </ul>
         <p>The first position type, static positioning, might be the simplest to understand. It is the default way elements lie</p>
-
-        <section class="blog_img 9_25_15_img_1">
-          <img src = "../imgs/9_25_15_img_1.png">
-          <p class="img_text">Static Positioning</p>
-        </section>
-
+      </section>
+      
+      <section class="blog_img 9_25_15_img_1">
+       <img src = "../imgs/9_25_15_img_1.png">
+       <p class="img_text">Static Positioning</p>
+      </section>
+      
+      <section class="blog_text">
         <p>In the image above, all of the HTML elemtents (each of the 4 divs) are positioned as static (even though the CSS is only shown for the 1st one). Since they are all written in the HTML as one after the other (Div 1 followed by Div 2, followed by Div 3, etc.), this is the way they are displayed. The only way to modify their position is by changing their margins and padding.</p>
 
         <p>The second position type, relative positioning, is like a more specific way of changing elements from their static positioning. Using the "top," "bottom," "left" and "right" properties, you can modify where the element lies <i>relative</i> to it's static positioning. See the below example:</p>
+      </section>
+      
+      <section class="blog_img 9_25_15_img_2">
+        <img src = "../imgs/9_25_15_img_2.png">
+        <p class="img_text">Relative Positioning</p>
+      </section>
 
-        <section class="blog_img 9_25_15_img_2">
-          <img src = "../imgs/9_25_15_img_2.png">
-          <p class="img_text">Relative Positioning</p>
-        </section>
 
+      <section class="blog_text">
         <p>In the example, Div 2 is shifted to the right. This is because the left property is set to 40px. This means that the left border starts 40 pixels from the where the left border would lie in the static position.</p>
 
         <p>The third position type, absolute positioning, can be modified in the same way as relative positioning, using the "top," "bottom," "left," and "right" properties. However, these change the element's position relative to it's parent elemtent. If it's parent element is the entire page body, it is relative to the </p>
-
-        <section class="blog_img 9_25_15_img_3">
-          <img src = "../imgs/9_25_15_img_3.png">
-          <p class="img_text">Absolute Positioning</p>
-        </section>
-
+      </section>
+      
+      <section class="blog_img 9_25_15_img_3">
+        <img src = "../imgs/9_25_15_img_3.png">
+        <p class="img_text">Absolute Positioning</p>
+      </section>
+      <section class="blog_text">
         <p>In the example above, the HTML was rewritten so Div 3 is contained within Div 2. This means that Div 2 is the parent element of Div 3. So the top border of Div 3 is 50 pixels from the top border of Div 2, and the left border of Div 3 is 70 pixels from the left border of Div 2.</p>
 
         <p>The last position type available in CSS is fixed. Fixed positioning simply locks an element in it's place on the screen. No matter where you scroll, the element will always appear in that same space on the screen. We'll need two screenshots to illustrate this:</p>
+      </section>
+      
+      <section class="blog_img 9_25_15_img_4">
+        <img src = "../imgs/9_25_15_img_4.png">
+        <p class="img_text">Fixed Positioning.</p>
+      </section>
+  
+      <section class="blog_img 9_25_15_img_5">
+       <img src = "../imgs/9_25_15_img_5.png">
+       <p class="img_text">Fixed Positioning.</p>
+      </section>        
 
-        <section class="blog_img 9_25_15_img_4">
-          <img src = "../imgs/9_25_15_img_4.png">
-          <p class="img_text">Fixed Positioning.</p>
-        </section>
-        <section class="blog_img 9_25_15_img_5">
-          <img src = "../imgs/9_25_15_img_5.png">
-          <p class="img_text">Fixed Positioning.</p>
-        </section>        
-
+      <section class="blog_text">
         <p>If you note the scroll right scroll bar in the above screenshots, they are in different spots, yet Div 4 is in the exact same place in the viewing window. This is what fixed positioning does. You  can change where the element is fixed using the "top," "bottom," "left" and right properties.</p>
-
         <p>That is a intro to CSS positioning. Stay tuned for blog updates!</p>
-
     </section>
   </article>
 
 
 
 
-  <article class="9_11_15">
-    <section class="blog_text 9_11_15_text">
-      <h2>September 11, 2015</h2>
+  <article class="blog_post 9_11_15">
+    <section class="blog_text">
+      <h2><a name="9_11"></a>September 11, 2015</h2>
         <p>Week 1 got the ball rolling quickly and introduced a lot of new ideas and reviewed some ones I already had experience with.</p>
         <p>Week 1 introduced the command line. Using the command line, you can enter text called commands that can create, move, delete and execute files (among many other functions). From college, I already had some knowledge of these commands, but I had only performed these commands on a Unix system. This week taught me how to perform the same commands on a Windows machine (which I own). For the most part they are similar, but there are a few subtle differences.</p>
         <p>One of the big ideas introduced this week was the idea of "version control." Version control is the idea of monitoring changes to digital files. It keeps projects organized and aids the file creator(s) in moving back and forth between different file versions. From my days as a data analyst at Verzion, I was used to repeatedly saving and properly labeling files after modifications. But this week, DevBootcamp taught me a whole new, in-depth, way of performing version control using git and Github.</p>
-
-        <section class="blog_img 9_11_15_img">
-          <img src = "../imgs/version-control-fig3.png" alt="Blog Post Image">
-          <p class="img_text">An example of version control flow, using a central remote repository like GitHub</p>
-        </section>
-
+  </section>
+  <section class="blog_img 9_11_15_img">
+    <img src = "../imgs/version-control-fig3.png" alt="Blog Post Image">
+    <p class="img_text">An example of version control flow, using a central remote repository like GitHub</p>
+  </section>
+  <section class="blog_text">
         <p>Git is a tool that helps you monitor changes you've made to files. As you change and create new files and folders, you can perform what is called "commit" to save these changes. You also can add notes that say the changes you've made. Using the git commands, you can check the status of the changes you've made, save the changes, and then send the changes to a remote location so that your changes can be accessed online. The most common resource where you can "push" your changes to is GitHub. GitHub is a great place to store your code because multiple users can access it. This aids in projects where there are many developers.</p>
     </section>
   </article>
@@ -107,8 +114,8 @@
   <aside id="blog_post_list">
     <h2>Posts</h2>
       <ul>
-        <li><a href="#">September 11, 2015</a></li>
-        <li><a href="#">September 24, 2015</a></li>
+        <li><a href="#9_11">September 11, 2015</a></li>
+        <li><a href="#9_25">September 25, 2015</a></li>
         <li><a href="#">TBD</a></li>
         <li><a href="#">TBD</a></li>
         <li><a href="#">TBD</a></li>
