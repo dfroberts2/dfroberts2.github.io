@@ -7,3 +7,9 @@
 	padding-left:25%;
 	padding-right:10%;
 }
+
+.img_text{
+	margin-top:0;
+	font-size:.75em;
+	font-style: italic;
+}
