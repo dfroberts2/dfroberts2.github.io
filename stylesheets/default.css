@@ -8,7 +8,7 @@ body{
 
 h1{
 	font-family:'Nixie One', cursive;
-	font-size:70px;
+	font-size:64px;
 }
 
 a:link{
@@ -36,11 +36,11 @@ h1{
 }
 
 nav{
-	float:right;
-	margin-top:60px;
-	margin-left: auto;
-	margin-right: auto;
-	width:45%;
+	
+	display: inline-block;
+	position: relative;
+	width: 45%;
+	left: 5%;
 }
 nav ul {
 	margin-right:10%;
@@ -66,8 +66,20 @@ nav ul li{
 	display:inline-block;
 	float:right;
 	margin-right:10%;
-
 }
+
+
+section p a:link{
+	text-decoration: none;
+	color:gray;
+}
+section p a:visited{
+	color:gray;
+}
+section p a:hover{
+	color:black;
+}
+
 
 #p1{
 	margin-bottom:70px;
