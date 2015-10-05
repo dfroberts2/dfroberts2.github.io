@@ -8,8 +8,13 @@
 	margin:auto;
 }
 
+
 .img_text{
 	margin-top:0;
 	font-size:.75em;
 	font-style: italic;
+}
+
+h3{
+	text-align: center;
 }
