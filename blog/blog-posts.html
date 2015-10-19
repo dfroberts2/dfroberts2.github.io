@@ -21,11 +21,45 @@
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="#">About Me</a></li>
+        <li><a href="../about.html">About Me</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="index.html">Blog</a></li>
       </ul>
     </nav>
+    <article class="blog_post 10_18_15">
+      <section class="blog_text">
+        <a name="10_18"></a><h2>October 18, 2015</h2>
+        <p>Another week at DevBootcamp, and I feel like I'm starting to fully understand the capabilities of the Ruby language. Beyond writing logic and algorithms to solve single problems, Ruby is capable of customization so that methods can be written for certain defined objects, with specific attributes. These specific objects are named classes.</p>
+        <p>To write a class in Ruby, it must be defined like so:</p>
+      </section>
+      <section class="blog_img 10_18_15_img_1">
+        <img src = "../imgs/10_18_15_img_1.png">
+        <p class="img_text">Define Class</p>
+     </section>
+     <section class="blog_text">
+        <p>This is pretty simple. The next step is critical. The first method that must be written in a new class is the "initialize" method. In the initialize method, parameters that are inputted into the new class can be converted into what are called instance variable. Other instance variable may also be defined at this step. Understanding instance variables is fundamental to understanding how classes in Ruby (and other object oriented languages work). Instance variables, unlike local variables, hold there value beyond a single method. This means that their value is passed on to other methods used with in the class (instance methods). In Ruby they are defined with the @ sign. See below:</p>
+      </section>
+      <section class="blog_img 10_18_15_img_2">
+        <img src = "../imgs/10_18_15_img_2.png">
+        <p class="img_text">Initialize Class</p>
+     </section>
+     <section class = "blog_text">
+      <p>As you can also see in this example, argument errors can be raised in the initialize step if there is an unexpected input type. Once the step class is initialized, new objects in this class can be created with the .new method. After writing the initialize method, other instance methods can be written. </p>
+     </section>
+
+     <section class="blog_img 10_18_15_img_3">
+        <img src = "../imgs/10_18_15_img_3.png">
+        <p class="img_text">Write Instance Methods</p>
+     </section>
+
+     <section class = "blog_text">
+      <p>Here, instance methods are written for the Die class. When called, the sides method reports the number of sides there are on the object, based on the inputted array. The roll method is called, a random side is selected. As you can see, the instance variables are being used again, in a multitude of ways. This is a basic overview of how object classes are written in Ruby.</p>
+     </section>
+
+
+    </article>
+
+
 
 
      <article class="blog_post 10_11_15">
@@ -192,7 +226,7 @@
         <li><a href="#10_4">October 4, 2015</a></li>
         <li><a href="#10_5">October 5, 2015</a></li>
         <li><a href="#10_11">October 11, 2015</a></li>
-        <li><a href="#">TBD</a></li>
+        <li><a href="#10_18">October 18, 2015</a></li>
         <li><a href="#">TBD</a></li>
       </ul>
     </aside>  
