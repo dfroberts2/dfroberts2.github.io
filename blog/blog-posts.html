@@ -26,6 +26,34 @@
         <li><a href="index.html">Blog</a></li>
       </ul>
     </nav>
+    <article class="blog_post 10_25_15">
+      <section class="blog_text">
+        <a name="10_25"></a><h2>October 25, 2015</h2>
+        <p>Another week at DevBootcamp and...back to square one?! What? So we finally completed our introduction to the Ruby language, and moved on to a new programming language: JavaScript. Although it is "object-oriented" like Ruby, there are number of differences in syntax and interpretation. So this week felt a bit like a step backwards because I wasn't building on a whole lot of knowledge, but as the saying goes "Two steps forward, one step back..." In this week's post, I will be discussing the differences between Ruby and Javascript in how they loop instructions. My main focus will be on looping through data structures like arrays.</p>
+        <p>So in Ruby, there were methods in place that allowed for iteration through data arrays. For example, the .each method would pass along the value of each value in an array into a code block like so:</p>
+      </section>
+      <section class="blog_img 10_25_15_img_1">
+        <img src = "../imgs/10_25_15_img_1.png">
+        <p class="img_text">The .each method</p>
+     </section>
+      <section class="blog_text">        
+        <p>Here, Ruby is taking the array and multiplying each value in the array and multiplying it by two. It is a clean and simple way to perform an iteration.</p>
+        <p>Since there is no .each method in JavaScript, to perform this task, you must use what is called a For Loop. A for loops runs through a block of code if a certain condition is met. It is most often used to run a block of code a specific number of times. In order to run the above iterations in JavaScript we need to run the following code:</p>
+      </section>
+      <section class="blog_img 10_25_15_img_2">
+        <img src = "../imgs/10_25_15_img_2.png">
+        <p class="img_text">A for loop in JavaScript</p>
+     </section>
+     <section class="blog_img 10_25_15_img_3">
+        <img src = "../imgs/10_25_15_img_3.png">
+        <p class="img_text">It's output</p>
+     </section>
+      <p>In the JavaScript example, we first define the variable array in line 1. Then we run a for loop. The first part within the parenthesis is run before the loop begins. It starts our counter, i, at a value of zero. Then it runs the code block as long as the condition in the second part of the parenthesis is met, which it is. The code block uses the variable i as an index for the array. It prints the array value, at index i, multiplied by 2, to the console. After running the code block, it will run through the 3rd part within the parenthesis. This part means it will add 1 to i after each loop. So for the first time it takes the element 0 in the array which is 1 and multiplies it by 2 to get 2. The second time, it takes the element 1 in the array which is 2 and mutiplies it by 2 to get 4. This continues until i is 5. It will not run when i is 5, because this is larger than the length of the array.</p>
+      <p>Although it is a bit more complicated, iterating through data structures in JavaScript doesn't have to be that difficult.</p>
+
+    </article>
+
+
     <article class="blog_post 10_18_15">
       <section class="blog_text">
         <a name="10_18"></a><h2>October 18, 2015</h2>
@@ -227,7 +255,7 @@
         <li><a href="#10_5">October 5, 2015</a></li>
         <li><a href="#10_11">October 11, 2015</a></li>
         <li><a href="#10_18">October 18, 2015</a></li>
-        <li><a href="#">TBD</a></li>
+        <li><a href="#10_25">October 25, 2015</a></li>
       </ul>
     </aside>  
 
